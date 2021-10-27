@@ -1,0 +1,19 @@
+@import "../../styles/scss/variables.module.scss";
+
+.page {
+  display: block;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  padding: 20px;
+  color: $foreground-color;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .title {
+    text-align: left;
+  }
+}

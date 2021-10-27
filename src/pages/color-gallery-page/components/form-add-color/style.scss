@@ -1,0 +1,54 @@
+@import "../../../../styles/scss/variables.module.scss";
+
+.add-form {
+  padding: 0 20px;
+
+  label,
+  input,
+  button {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: $foreground-color;
+    background: $background-color;
+    border-radius: 12px;
+    box-shadow: inset 5px 5px 10px #cecece, inset -5px -5px 10px #f2f2f2;
+  }
+  input::placeholder {
+    color: #b0b0b0;
+  }
+  label {
+    color: $foreground-color;
+    font-weight: bold;
+  }
+
+  button {
+    display: in;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: $foreground-color;
+    background: $background-color;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #f4f4f4;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    }
+  }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .add-form {
+    text-align: left;
+  }
+}
