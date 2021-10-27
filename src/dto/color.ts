@@ -4,5 +4,4 @@ export interface Color {
     rgb: {r: number, g: number, b: number};
     hsl: {h: number, s: number, l: number};
     removeable: boolean;
-    createdAt: Date;
 }

@@ -18,7 +18,6 @@ function FormAddColor() {
         rgb: hexToRGB(hex),
         hsl: hexToHSL(hex),
         removeable: true,
-        createdAt: new Date(),
       };
 
       dispatch({

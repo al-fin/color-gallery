@@ -55,7 +55,6 @@ const defaultValue = [
   rgb: hexToRGB(hex),
   hsl: hexToHSL(hex),
   removeable: false,
-  createdAt: new Date(),
 }));
 
 function ColorProvider({ children }: ColorProviderProps) {
