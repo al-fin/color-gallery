@@ -62,5 +62,9 @@
   .gallery {
     width: 100%;
     grid-template-columns: 1fr 1fr;
+
+    .gallery-item {
+      min-height: 125px;
+    }
   }
 }
